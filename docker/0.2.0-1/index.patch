@@ -1,0 +1,18 @@
+--- src/main/resources/templates/index.html	2021-12-24 21:54:03.000000000 +0800
++++ src/main/resources/templates/index_new.html	2021-12-30 21:39:42.666305634 +0800
+@@ -29,7 +29,7 @@
+ 					<section id="intro" class="wrapper style1 fullscreen fade-up">
+ 						<div class="inner">
+ 							<h1>Donald S. Leung</h1>
+-							<p>IT consultant by day, software developer by night</p>
++							<p>Cloud, virtualization and open source enthusiast</p>
+ 							<ul class="actions">
+ 								<li><a href="/about" class="button scrolly">About me</a></li>
+ 							</ul>
+@@ -55,4 +55,4 @@
+ 			<script src="assets/js/main.js"></script>
+ 
+ 	</body>
+-</html>
+\ No newline at end of file
++</html>
