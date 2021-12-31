@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: donaldsebleung-com
+  labels:
+    app: donaldsebleung-com
+  namespace: donaldsebleung-com
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: donaldsebleung-com
+  template:
+    metadata:
+      labels:
+        app: donaldsebleung-com
+      namespace: donaldsebleung-com
+    spec:
+      containers:
+      - name: donaldsebleung-com
+        image: donaldsebleung/donaldsebleung-com:0.2.0-1
+        ports:
+        - containerPort: 8443
